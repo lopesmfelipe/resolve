@@ -1,6 +1,6 @@
-import Star from "./Star";
+import {Star} from "./Star";
 
-const ElementCard = (title, cover) => {
+const ElementCard = ({title, cover}) => {
   return (
     <div className="container">
       <div className="cover-container">

@@ -1,4 +1,4 @@
-import ElementCard from "./ElementCard";
+import {ElementCard} from "./ElementCard";
 
 import afterGodCover from "../assets/images/after-god.jpg";
 import akiraCover from "../assets/images/akira.jpg";
