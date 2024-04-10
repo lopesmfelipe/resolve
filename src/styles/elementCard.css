@@ -35,11 +35,17 @@
   margin: 3px;
   margin-left: 14px;
   margin-top: 8px;
+  background-color: blue;
 }
 
-button {
+.element-info button {
   border-radius: 5px;
-  padding: 6px;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-top: 5px;
 }
 
 
