@@ -1,0 +1,12 @@
+:root {
+  font-size: 16px;
+  font-family: 'Open Sans';
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #232323;
+  --bg-secondary: #141414;
+  --transition-speed: 600ms;
+  --main-color: rgb(219, 0, 80);
+  --background-main-color: rgb(26, 26, 26);
+  --lights-off: rgb(175, 175, 175);
+}
