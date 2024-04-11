@@ -1,16 +1,27 @@
 import "../styles/elementCard.css";
 
-const ElementCard = ({star, title, cover}) => {
+const ElementCard = ({ star, title, cover }) => {
   return (
     <div className="content-container">
       <div className="cover-container">
         <img src={cover} alt={title} />
       </div>
       <div className="element-info">
-        <p>{star} 8</p>
-        <p>{title}</p>
-        <p>2001</p>
-        <button>Details</button>
+        <div className="rating">
+          <i
+            className="fa-solid fa-star fa-2xs"
+            style={{ color: "#FFD43B" }}
+          ></i>
+          <p>8</p>
+        </div>
+        <div className="title-author-date">
+          <p className="title">{title}</p>
+          <p className="author">Sumi Eno</p>
+          <p className="date">2001</p>
+        </div>
+          <div className="button-container">
+            <button>Details</button>
+          </div>
       </div>
     </div>
   );
