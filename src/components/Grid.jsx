@@ -1,5 +1,4 @@
 import ElementCard from "./ElementCard";
-import Star from "./Star";
 import "../styles/grid.css";
 
 import afterGodCover from "../assets/images/after-god.jpg";
@@ -26,7 +25,7 @@ const Grid = () => {
   return (
     <main className="content-grid">
       {listData2.map((element, index) => (
-        <ElementCard star={<Star />} key={index} title={element.title} cover={element.cover} />
+        <ElementCard key={index} title={element.title} cover={element.cover} />
       ))}
     </main>
   );

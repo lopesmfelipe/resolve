@@ -1,6 +1,6 @@
 import "../styles/elementCard.css";
 
-const ElementCard = ({ star, title, cover }) => {
+const ElementCard = ({ title, cover }) => {
   return (
     <div className="content-container">
       <div className="cover-container">
