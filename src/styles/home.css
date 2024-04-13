@@ -1,0 +1,18 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white
+}
+
+.searchbar-container {
+
+}
+
+.searchbar {
+  width: 500px;
+  height: 40px; 
+  border-radius: 20px;
+  border: 0;
+}
