@@ -1,9 +1,47 @@
+@import "./general.css";
+
+header {
+  display: flex;
+  color: white;
+  background-color: green;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  width: 200px;
+  height: 80px;
+  background-color: blue;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.logo-container img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 25px;
+}
+
+.menu {
+  display: flex;
+  background-color: brown;
+  position: relative;
+  left: 800px;
+}
+
+.menu P {
+  margin: 10px;
+}
+
+
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white
+  color: white;
+  font-family: sans-serif;
 }
 
 .searchbar-container {

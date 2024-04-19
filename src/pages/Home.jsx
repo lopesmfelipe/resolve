@@ -1,9 +1,21 @@
 import "../styles/general.css";
 import "../styles/home.css";
+import logo from "./../assets/images/retrologo.jpg";
 
 const Home = () => {
   return (
     <>
+      <header>
+        <div className="logo-container">
+          <img src={logo} />
+          <h3>MangaBook</h3>
+        </div>
+
+        <div className="menu">
+          <p>Readlist</p>
+          <p>Profile</p>
+        </div>
+      </header>
       <main>
         <div>
           <h2>Mangas & Books All in One Place</h2>
