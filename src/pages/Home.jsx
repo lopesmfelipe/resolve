@@ -16,7 +16,7 @@ const Home = () => {
           <p>Profile</p>
         </div>
       </header>
-      <main>
+      <main className="background-image">
         <div>
           <h2>Mangas & Books All in One Place</h2>
           <h3>Search, rate, list and share your favorite mangas and books </h3>
