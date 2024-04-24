@@ -5,5 +5,7 @@
 }
 
 body {
-  background-color: rgb(17, 16, 16);
+  background: rgba(127, 3, 36, 0.586) url("../assets/images/background.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
 }
