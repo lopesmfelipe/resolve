@@ -19,9 +19,9 @@ const ElementCard = ({ title, cover }) => {
           <p className="author">Sumi Eno</p>
           <p className="date">2001</p>
         </div>
-          <div className="button-container">
-            <button>Details</button>
-          </div>
+        <div className="button-container">
+          <button>Details</button>
+        </div>
       </div>
     </div>
   );
